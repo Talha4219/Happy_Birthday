@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
     function updateTriangleColor() {
       if (body.classList.contains('night')) {
-        triangle.style.borderLeftColor = '#2c3e50'; // night color
-      } else {
         triangle.style.borderLeftColor = '#87CEEB'; // day color
+      } else {
+        triangle.style.borderLeftColor = '#2c3e50'; // night color
       }
     }
     updateTriangleColor();
